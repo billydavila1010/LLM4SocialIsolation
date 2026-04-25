@@ -1,0 +1,9 @@
+llm_model_path: gpt-4-turbo-preview
+max_tokens: 1024
+timeout: 600
+num_generations: 1
+temperature: 0
+autobiography_pre_memory_path: ./assets/demo/conv_history_w_interview_protocol_w_memorygraph/Obama/memory_graph
+autobiography_pre_event_path: ./assets/autobiography_pre_event_parsed.json
+autobiography_pre_event_emb_path: ./assets/autobiography_pre_event_emb.json
+metrics_output_path: ./assets/eval_output/

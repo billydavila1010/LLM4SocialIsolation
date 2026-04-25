@@ -1,0 +1,9 @@
+agent_name: Doctor
+llm_model_path: meta-llama/Meta-Llama-3-8B-Instruct
+max_tokens: 1024
+timeout: 600
+num_generations: 1
+temperature: 0
+use_emotion_module: False
+session_max_tokens: 4096
+patient_conv_history_dir: ./assets/conversation_history

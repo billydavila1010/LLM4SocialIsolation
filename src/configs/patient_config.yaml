@@ -1,0 +1,11 @@
+agent_name: Patient
+#llm_model_path: gpt-4o-2024-05-13
+llm_model_path: gpt-4-turbo
+max_tokens: 1024
+timeout: 600
+num_generations: 1
+temperature: 0
+patient_id: 'Obama'
+autobiography_path_for_summary: ./assets/autobiography/obama/autobiography_chapters.json
+autobiography_path_for_rag: ./assets/autobiography/obama/13991012000013_Test.txt
+autobiography_pre_summary_path: ./assets/autobiography/obama/autobiography_pre_summary.json

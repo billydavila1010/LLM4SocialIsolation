@@ -1,0 +1,4 @@
+search_type: similarity_score_threshold
+saved_index_root: ./src/retriever/saved_index
+search_kwargs:
+  score_threshold: 0.67

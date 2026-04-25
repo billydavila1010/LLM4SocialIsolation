@@ -1,0 +1,29 @@
+agent_name: Patient
+#llm_model_path: gpt-4o-2024-05-13
+llm_model_path: gpt-4-turbo
+max_tokens: 1024
+timeout: 600
+num_generations: 1
+temperature: 0
+# patient_id: 'Obama'
+# autobiography_path_for_summary: ./assets/autobiography_chapters_demo.json
+# autobiography_path_for_rag: ./assets/autobiography/13991012000013_Test.txt
+# autobiography_pre_summary_path: ./assets/autobiography_pre_summary.json
+
+# patient_id: 'Trollope'
+# autobiography_pre_summary_path: ./assets/autobiography_pre_summary_Anthony_Trollope.json
+# autobiography_path_for_summary: ./assets/autobiography_chapters_Anthony_Trollope.json
+# autobiography_pre_event_path: ./assets/autobiography_pre_event_Anthony_Trollope.json
+# autobiography_event_parsed_path: ./assets/autobiography_pre_event_parsed_Anthony_Trollope.json
+
+# patient_id: 'Spence'
+# autobiography_pre_summary_path: ./assets/autobiography_pre_summary_Catherine_Helen_Spence.json
+# autobiography_path_for_summary: ./assets/autobiography_chapters_Catherine_Helen_Spence.json
+# autobiography_pre_event_path: ./assets/autobiography_pre_event_Catherine_Helen_Spence.json
+# autobiography_event_parsed_path: ./assets/autobiography_pre_event_parsed_Catherine_Helen_Spence.json
+
+patient_id: 'Jane_Eyre'
+autobiography_pre_summary_path: ./assets/autobiography_pre_summary_Jane_Eyre.json
+autobiography_path_for_summary: ./assets/autobiography_chapters_Jane_Eyre.json
+autobiography_pre_event_path: ./assets/autobiography_pre_event_Jane_Eyre.json
+autobiography_event_parsed_path: ./assets/autobiography_pre_event_parsed_Jane_Eyre.json

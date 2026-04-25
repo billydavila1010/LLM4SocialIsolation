@@ -1,0 +1,12 @@
+agent_name: Patient
+#llm_model_path: gpt-4o-2024-05-13
+llm_model_path: gpt-4o
+max_tokens: 1024
+timeout: 600
+num_generations: 1
+temperature: 0
+patient_id: 'Catherine_Helen_Spence'
+autobiography_path_for_summary: ./assets/autobiography/catherine_helen_spence/autobiography_chapters_Catherine_Helen_Spence.json
+autobiography_path_for_rag: ./assets/autobiography/catherine_helen_spence/An_Autobiography_by_Catherine_Helen_Spence.txt
+autobiography_pre_summary_path: ./assets/autobiography/catherine_helen_spence/autobiography_pre_summary_Catherine_Helen_Spence.json
+autobiography_pre_event_path: ./assets/autobiography/catherine_helen_spence/autobiography_pre_event_parsed_Catherine_Helen_Spence.json
